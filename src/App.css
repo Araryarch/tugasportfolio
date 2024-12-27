@@ -1,0 +1,30 @@
+/* Scrollbar styles for Webkit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #4f5d73;
+  border: 3px solid #1a202c;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #2d3748;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #6b7c93;
+}
+
+::-webkit-scrollbar-track:hover {
+  background-color: #2d3748;
+}
+
+/* For Firefox */
+scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+scrollbar-color: #4f5d73 #2d3748;
